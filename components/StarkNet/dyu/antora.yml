@@ -1,0 +1,13 @@
+name: antora-i18n
+title: Antora i18n
+version: dyu
+display_version: Julakan
+prerelease: x
+nav:
+  - modules/ROOT/nav.adoc
+ext:
+  collector:
+    run:
+      command: "po4a --variable langs=dyu po4a.cfg"
+    scan:
+      dir: build/dyu

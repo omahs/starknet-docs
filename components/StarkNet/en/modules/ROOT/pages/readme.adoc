@@ -1,0 +1,56 @@
+= Readme 
+:author: Boyd Kelly
+:page-author: Boyd Kelly
+:page-revdate: 2022-10-16T14:39:31
+:page-role: blog
+:page-image:
+:description:
+:keywords: readme, antora, i18n 
+:category: Language
+:page-tags:
+:lang: en
+include::locale/attributes.adoc[]
+
+== Antora i18n description 
+
+This Antora is based on the Antora Default UI, with the purpose of facilitating a multilingual site.
+
+While it follows as closely as possible the default ui, it adds the following features/changes:
+
+. Translates the html lang meta setting using a lang or page-lang attribute in the source document.
+. Makes use of header-content.$lang.hbs partials for a translated header.
+. Incorporates the lunr antora extension to provide offline search in supported languages.
+. Adds the node getttext.js package to translate:
+. . Tooltips in the ui.
+. . Search placeholder message (Search here...)
+. . "Contents" title of right side bar
+. . "Edit this page" link text
+. . "Display the translated 'component' name in language menu 
+. Incorporates the collector-assembler antora extension using po4a to add translated documents to content catalogue at run time.
+
+== Build this locally.
+
+. clone this repo
+  `git clone git@gitlab.com:antora-ui-custom/antora-i18n.git`
+. build the ui
+
+[source, bash]
+----
+pushd ui
+npm i
+gulp bundle
+popd
+----
+
+. build the site
+npm i
+npm run build-local
+
+== Customize
+
+. Copy the ui outside of this directory and do a git init
+. Push to git hosting service. (gitlab ci included)
+. Within ui/src/partials customize the header-content.$lang files, and rename according to your languages
+.
+
+

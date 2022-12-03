@@ -1,0 +1,13 @@
+name: antora-i18n
+title: Antora multilingue
+version: fr
+display_version: Français
+prerelease: y
+nav:
+  - modules/ROOT/nav.adoc
+ext:
+  collector:
+    run:
+      command: "po4a --variable langs=fr po4a.cfg"
+    scan:
+      dir: build/fr
