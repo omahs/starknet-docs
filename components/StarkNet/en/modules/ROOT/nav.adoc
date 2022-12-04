@@ -1,2 +1,2 @@
-* xref:index.adoc[Universal Declaration of Human Rights]
-* xref:readme.adoc[Readme Local]
+* xref:index.adoc[Universal Declaration of Human Rights - Version 2.0]
+* xref:readme.adoc[Readme - Version 2.0]
