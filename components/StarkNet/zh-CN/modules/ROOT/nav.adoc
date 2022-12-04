@@ -1,0 +1,2 @@
+* xref:index.adoc[人权宣言]
+* xref:readme.adoc[说明]

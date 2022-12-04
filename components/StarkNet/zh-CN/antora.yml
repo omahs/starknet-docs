@@ -1,0 +1,6 @@
+name: antora-i18n
+title: Antora多语言
+version: zh-CN
+display_version: 简体中文
+nav:
+  - modules/ROOT/nav.adoc
