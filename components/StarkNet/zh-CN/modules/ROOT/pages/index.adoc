@@ -14,7 +14,7 @@
 [abstract]
 == Preamble
 
-image::en@antora-i18n:ROOT:udhr.svg[Universal Declaration of Human Rights,356,480,float="left"]
+image::en@i18n-v2:ROOT:udhr.svg[Universal Declaration of Human Rights,356,480,float="left"]
 
 鉴于承认人类大家庭所有成员的固有尊严以及平等和不可剥夺的权利是世界自由、正义与和平的基础，
 

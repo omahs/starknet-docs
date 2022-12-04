@@ -14,7 +14,7 @@
 [abstract]
 == Preamble
 
-image::en@antora-i18n:ROOT:udhr.svg[Universal Declaration of Human Rights,356,480,float="left"]
+image::en@i18n-v2:ROOT:udhr.svg[Universal Declaration of Human Rights,356,480,float="left"]
 
 Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, 
 
