@@ -93,7 +93,7 @@ As mentioned before, we assume that the reader is familiar with Cairo syntax. Fo
 
 First, we observe the usage of link:https://starknet.io/docs/how_cairo_works/builtins.html#implicit-arguments[implicit arguments] passed to this function inside the curly brackets. Specifically, the arguments necessary for the assertion and storage operations. Wherever such functionality is used, we’ll pass these implicit arguments.
 
-Next, the assert functions used here are imported from Cairo’s https://github.com/starkware-libs/cairo-lang/blob/master/src/starkware/cairo/common/math.cairo[common math library] . In this case, `assert_nn_le` asserts that the first argument is nonnegative and is less than or equal to the second argument.
+Next, the assert functions used here are imported from Cairo’s https://github.com/starkware-libs/cairo-lang/blob/master/src/starkware/cairo/common/math.cairo[common math library]. In this case, `assert_nn_le` asserts that the first argument is nonnegative and is less than or equal to the second argument.
 
 To allow a user to read the balance of an account, we define the following xref:intro.adoc#view-decorator[view function]:
 
